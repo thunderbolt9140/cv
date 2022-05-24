@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CONTACT</title>
+</head>
+
+<body>
+  <form action="mailto:aps@gmail.com" method="post" enctype="text/plain">
+    <label for="name"><b>Your Name :</b> </label>
+    <input type="text" id="name" name="name"><br>
+    <label for="phone"><b>Phone No. :</b> </label>
+    <input type="number" id="phone" name="phone"><br>
+    <label for="dob"><b>DOB : </b> </label>
+    <input type="date" id="dob" name="dob" value=""><br>
+    <label for="pass"><b>Password : </b></label>
+    <input type="password" id="pass" name="pass"><br>
+    <label for="gender"><b>Gender :</b></label>
+    <input type="radio" id="gender" name="gender" value="male">male
+    <input type="radio" id="gender" name="gender" value="female">female<br>
+    <label for="skills"><b>Skills :</b> </label><br>
+    <input type="checkbox" id="skills" name="skills">C++<br>
+    <input type="checkbox" id="skills" name="skills">C<br>
+    <input type="checkbox" id="skills" name="skills">Java<br>
+    <label for="myfile"><b>Select a file:</b></label>
+    <input type="file" id="myfile" name="myfile"><br>
+    <label for="course">Choose a course:</label>
+    <select name="course" id="course">
+      <option value="CSE">
+        CSE
+      </option>
+      <option value="ece">
+        ECE
+      </option>
+      <option value="ee">
+        EE
+      </option>
+    </select>
+    <br>
+    <label for = "email">EMAIL : </label>
+    <input type="email" id="email" name="email" ><br>
+    <label for="msg"><b>Message :</b></label><br>
+    <textarea name="msg" id="msg" rows="8" cols="80"></textarea><br>
+
+    <label for="consent">I am okay with all terms. </label>
+    <input type="checkbox" id="consent" name="consent">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
